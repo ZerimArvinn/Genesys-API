@@ -15,7 +15,7 @@ The Schema for a User object is as follows.
 
 <h2>ENDPOINTS</h2>
 
-<h3>CREATE USER Endpoint -- "/api/v1/users/signup"</h3>
+<p>CREATE USER Endpoint -- "/api/v1/users/signup"</p>
 
 <p>example POST Request to http://localhost:3000/api/v1/users/signup 
 body {
@@ -27,7 +27,7 @@ body {
 response: "User Created Successfully"</p>
 
 
-<h3>LOGIN USER Endpoint -- "/api/v1/users/login"</h3>
+<p>LOGIN USER Endpoint -- "/api/v1/users/login"</p>
 
 <p>Example POST Request to http://localhost:3000/api/v1/users/login 
 body {
@@ -40,7 +40,7 @@ response: "User logged in" or "Password incorrect"</p>
 
 <h2>GET ALL USERS -- "/api/v1/users/login"</h2>
 
-<h3>Example GET request to http://localhost:3000/api/v1/users</h3>
+<p>Example GET request to http://localhost:3000/api/v1/users</p>
 
 <p>response: [
     {
@@ -62,7 +62,7 @@ response: "User logged in" or "Password incorrect"</p>
 
 <h2>Get User By ID -- "/api/v1/users/:id"</h2>
 
-<h3>Example GET request to http://localhost:3000/api/v1/users/1</h3>
+<p>Example GET request to http://localhost:3000/api/v1/users/1</p>
 <p>
 response: {
     "id": "1",
@@ -75,7 +75,7 @@ response: {
 
 <h2>Edit user by id -- "/api/v1/users/:id"</h2>
 
-<h3>Example POST request to http://localhost:3000/api/v1/users/1</h3>
+<p>Example POST request to http://localhost:3000/api/v1/users/1</p>
 <p>
 body {
     "name": "bill gates",

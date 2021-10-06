@@ -1,6 +1,6 @@
-Genesys REST API
+<h1>Genesys REST API<h1>
 
-This API is a basic User Management System. It will allow the creation, deletion, update of user objects and also contains a login endpoint.
+<p>This API is a basic User Management System. It will allow the creation, deletion, update of user objects and also contains a login endpoint.<p>
 
 The Schema for a User object is as follows.
 
